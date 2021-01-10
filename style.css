@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 body {
@@ -12,7 +12,9 @@ body {
 }
 
 #menu {
-   border-bottom: 1px solid black;
+   margin: 5%;
+   margin-top: 20px;
+   border: 1px solid black;
    text-align: center;
    height: 100px;
 }
@@ -22,4 +24,86 @@ body {
     line-height: 100px;
     margin: 0 30px;
 	list-style-type: none;
+}
+
+#main {
+    height: 500px;
+    width: auto;
+    margin: 0 5%;
+    overflow: auto;
+}
+
+#main .col {
+    float: left;
+    /* width: 31.3333%; */
+    margin-right: 2.99%;
+}
+
+#main .col:first-child {
+    float: left;
+    width: 20%;
+    margin: 0;
+}
+
+#main .col:last-child {
+    float: right;
+    width: 20%;
+    margin: 0;
+}
+
+#dsvl {
+    margin: auto;
+    margin-right: 0px;
+    border: 1px solid black;
+    text-align: center;
+    height: 500px;
+}
+
+#dsvl ul li {
+    display: block;
+    list-style-type: none;
+    margin: 20px;
+}
+
+#info {
+    max-width: auto;
+    margin: 5px;
+    display: flex;
+}
+
+.maininfo {
+    text-align: center;
+}
+
+.img {
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    line-height: 100px;
+}
+
+#info ul li {
+    list-style-type: none;
+    margin: 10px;
+    display: block;
+}
+
+#dssp {
+    border: 1px solid black;
+    text-align: center;
+    height: 500px;
+}
+
+#dssp ul li {
+    display: block;
+    list-style: none;
+    margin: 20px;
+}
+
+#footer {
+    margin: 5%;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    text-align: center;
+    height: 100px;
 }
